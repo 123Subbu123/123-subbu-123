@@ -1,0 +1,25 @@
+/* Hero Section Background */
+.hero {
+    height: 100vh;
+    background-image: url('images/hero.jpg');
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
