@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHelp da Dhaba</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <h1 class="text-3xl font-extrabold text-pink-600">🍽️ CodeHelp da Dhaba</h1>
+            <ul class="flex space-x-6 text-gray-600">
+                <li><a href="#home" class="hover:text-yellow-500">Home</a></li>
+                <li><a href="#menu" class="hover:text-yellow-500">Menu</a></li>
+                <li><a href="#about" class="hover:text-yellow-500">About</a></li>
+                <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-cover bg-center flex items-center justify-center text-white pt-20">
+        <div class="text-center p-10 bg-black bg-opacity-50 rounded-lg max-w-2xl">
+            <h2 class="text-6xl font-bold mb-4 animate-pulse">Welcome to CodeHelp da Dhaba!</h2>
+            <p class="text-2xl mb-6">Delicious meals, great ambiance, and warm hospitality await you.</p>
+            <a href="#menu" class="px-8 py-4 bg-yellow-500 text-black font-semibold rounded-full hover:bg-yellow-600 transition-all">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="p-10">
+        <h2 class="text-4xl font-extrabold text-center mb-8 text-white">🍛 Our Special Menu 🍲</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="menu-item text-center bg-white p-6 rounded-lg shadow-lg">
+                <img src="paneer-butter-masala.png" alt="Paneer Butter Masala" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold">Paneer Butter Masala</h3>
+                <p class="text-gray-600">Creamy and delicious paneer in buttery gravy.</p>
+            </div>
+            <div class="menu-item text-center bg-white p-6 rounded-lg shadow-lg">
+                <img src="chicken-hyderabadi-biryani.jpg" alt="Chicken Biryani" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold">Chicken Biryani</h3>
+                <p class="text-gray-600">Aromatic and flavorful chicken with basmati rice.</p>
+            </div>
+            <div class="menu-item text-center bg-white p-6 rounded-lg shadow-lg">
+                <img src="butter-naan.webp" alt="Butter Naan" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold">Butter Naan</hgit3>
+                <p class="text-gray-600">Soft and buttery naan, perfect with curries.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
